@@ -1,0 +1,566 @@
+@media (max-width: 868px)
+  .center
+    padding: 0 calc(50% - 360px)
+
+
+  .header
+    background-image: url("img/mobile-bck-img.jpg")
+    background-size: cover
+    height: 525px
+    padding-top: 30px
+
+
+    &__block
+      height: 46px
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+    &__logo
+      margin-left: 30px
+      width: 160px
+      height: 46px
+      background-image: url("img/logo.svg")
+
+    .header__nav
+      position: fixed
+      top: 0
+      right: -100%
+      width: 100%
+      height: 100vw
+
+      .nav
+        display: flex
+
+        &__list
+          list-style-type: none
+
+        &__link
+          text-decoration: none
+          font-size: 14px
+          line-height: 22px
+          color: #FFFFFF
+          margin-left: 20px
+          font-weight: 300
+
+        &__list:hover
+          transform: scale(1.03)
+
+  .block-width
+    width: 100vw
+    background-color: white
+    height: 230px
+    margin-top: 449px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    padding-top: 45px
+
+
+    .block-text
+
+      display: flex
+      max-width: 400px
+      flex-direction: column
+      height: 280px
+      justify-content: space-between
+      align-items: flex-start
+      background-color: white
+      padding-bottom: 40px
+
+      &__title
+        color: black
+        font-size: 40px
+        margin-bottom: 12px
+        text-transform: uppercase
+        width: 360px
+
+
+      &__text
+        color: black
+        font-size: 28px
+        margin-bottom: 12px
+
+      &__button
+        align-self: center
+        display: flex
+        align-items: center
+        justify-content: center
+        padding-bottom: 3px
+        text-decoration: none
+        color: white
+        font-size: 24px
+        background: #008DCD
+        width: 360px
+        height: 48px
+        border-radius: 30px
+
+      &__button:hover
+        box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45)
+        cursor: pointer
+
+      &__button:active
+        background-color: #94D1EC
+
+  .open
+    display: flex
+    position: absolute
+    top: 2rem
+    right: 2rem
+    font-size: 46px
+    color: white
+
+  .close
+    display: flex
+    position: absolute
+    top: 2rem
+    right: 2rem
+    font-size: 46px
+    color: black
+
+  .drop-block
+    display: flex
+    padding-top: 2rem
+    padding-left: 2rem
+    justify-content: space-between
+    flex-direction: column
+    position: fixed
+    top: 0
+    right: -100%
+    width: 100%
+    min-height: 550px
+    height: 100vh
+    min-height: 682px
+    padding-bottom: 2rem
+
+    &__logo
+      width: 160px
+      height: 48px
+      background-image: url("img/drop-logo.svg")
+      margin-bottom: 14px
+
+    &__title
+      font-size: 22px
+      font-weight: 700
+      text-transform: uppercase
+
+    &__input
+      display: flex
+      align-items: center
+      justify-content: center
+      color: black
+      font-size: 16px
+      background: white
+      max-width: 360px
+      height: 48px
+      border-radius: 30px
+      border: 1px solid black
+      padding-right: 20px
+      padding-left: 20px
+      outline: none
+      margin-bottom: 7px
+      margin-top: 7px
+
+    &__input::-webkit-input-placeholder
+      color: black
+      opacity: 1
+      transition: opacity 0.3s ease
+
+    &__input:focus::-webkit-input-placeholder
+      color: black
+      opacity: 0
+      transition: opacity 0.3s ease
+
+    &__button
+      display: flex
+      align-items: center
+      justify-content: center
+      font-weight: 700
+      text-decoration: none
+      max-width: 360px
+      color: white
+      font-size: 24px
+      padding-bottom: 3px
+      background: #008DCD
+      height: 48px
+      margin-bottom: 7px
+      border-radius: 30px
+
+    &__button:hover
+      box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45)
+      cursor: pointer
+
+    &__button:active
+      background-color: #94D1EC
+
+  .drop-block__list
+    list-style-type: none
+    margin-bottom: 20px
+    transition: all 0.4s
+
+  .drop-block__list:hover
+    transform: translateX(8px)
+
+  .drop-block__link
+    text-decoration: none
+    font-size: 18px
+    color: #000000
+
+
+
+.group-1
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-bottom: 40px
+  background-color: #F7F7F7
+  margin-top: 268px
+
+
+  &__image
+    margin-top: 30px
+    margin-bottom: 30px
+    width: 278px
+    height: 142px
+
+  .subblock__title
+    font-size: 18px
+    color: black
+    margin-bottom: 30px
+
+  .subblock__text
+    width: 360px
+    font-size: 14px
+    line-height: 20px
+    color: #000000
+    margin-bottom: 30px
+
+.step-block
+  background-color: white
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-bottom: 15px
+  padding-top: 20px
+
+  &__step
+    background-color: white
+
+  &_image1
+    background-image: url("img/step-1-img.jpg")
+    background-size: cover
+    width: 278px
+    height: 188px
+
+  &_image2
+    background-image: url("img/step-2-img.jpg")
+    background-size: cover
+    width: 280px
+    height: 185px
+
+  &_image3
+    background-image: url("img/step-3-img.jpg")
+    background-size: cover
+    width: 277px
+    height: 188px
+
+  &_image4
+    background-image: url("img/step-4-img.jpg")
+    background-size: cover
+    width: 282px
+    height: 183px
+
+  &__image
+    margin-bottom: 20px
+
+  &__title
+    color: black
+    font-size: 26px
+    margin-bottom: 20px
+
+  &__text
+    font-size: 14px
+    line-height: 17px
+    color: #000000
+    width: 280px
+    margin-bottom: 20px
+
+.small-block
+  background-color: #F7F7F7
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-around
+  padding-bottom: 20px
+  height: 181px
+  &__title
+    width: 360px
+    font-size: 24px
+    line-height: 29px
+    margin-top: 28px
+
+.call
+  background-color: #008DCD
+  height: 320px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  padding-top: 40px
+  padding-bottom: 6px
+  &__text-block
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-start
+    width: 297px
+    height: 102px
+  &__title
+      font-size: 28px
+      line-height: 34px
+      color: white
+      text-transform: uppercase
+      margin-bottom: 10px
+  &__text
+    font-size: 14px
+    line-height: 20px
+    color: white
+  &__input-block
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+  &__input
+    width: 280px
+    border: 2px solid white
+    background-color: #008DCD
+    color: white
+    padding-top: 1px
+    padding-left: 20px
+    padding-right: 20px
+    font-size: 19px
+    height: 48px
+    border-radius: 30px
+  &__input::-webkit-input-placeholder
+      color: white
+      opacity: 1
+      transition: opacity 0.3s ease
+      font-size: 19px
+  &__input:focus::-webkit-input-placeholder
+    color: white
+    opacity: 0
+    transition: opacity 0.3s ease
+    font-size: 19px
+  &__button
+      width: 280px
+      color: black
+      border-radius: 30px
+      background-color: #FFCC00
+      height: 48px
+      text-decoration: none
+      font-size: 22px
+      padding-bottom: 2px
+      display: flex
+      align-items: center
+      justify-content: center
+  &__button:hover
+      background-color: #FFCC00
+      box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55)
+  &__button:active
+      background-color: #FCE39C
+  &__subblock
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    height: 30px
+    width: 270px
+
+
+
+
+.call__checkbox
+  display: none
+
+
+.call__checkbox:checked + .call__label::before
+  background-color: white
+
+
+.call__label
+  font-size: 10px
+  color: white
+
+
+.call__label::before
+  content: ""
+  display: inline-block
+  height: 10px
+  width: 10px
+  background-color: #008DCD
+  border: 1px solid white
+  vertical-align: middle
+  margin-bottom: 3px
+  transition: 0.5s
+  margin-right: 12px
+
+
+.call__label:hover
+  cursor: pointer
+
+.call__input
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 280px
+    height: 48px
+    padding-right: 20px
+    padding-left: 20px
+    margin-bottom: 7px
+    margin-top: 7px
+
+.feedback
+  background-color: white
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__title-block
+    width: 330px
+    padding-bottom: 20px
+    padding-top: 20px
+  &__title
+    font-size: 28px
+    color: black
+    text-transform: uppercase
+  &__content
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__person-block
+    background-color: white
+    width: 290px
+    margin-bottom: 20px
+  &__top-block
+    display: flex
+  &__img
+    height: 100px
+    width: 100px
+    margin-right: 10px
+    &_photo_1
+      background-image: url("img/person1.jpg")
+      background-size: cover
+    &_photo_2
+      background-image: url("img/person2.jpg")
+      background-size: cover
+  &__name
+    height: 104px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    margin-bottom: 10px
+  &__name1
+    color: black
+    font-size: 26px
+  &__name2
+    color: black
+    font-size: 18px
+  &__name3
+    color: black
+    font-size: 10px
+  &__text
+    font-size: 12px
+    line-height: 20px
+
+.our-plus
+  background-color: #F7F7F7
+  padding-top: 30px
+  padding-bottom: 30px
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__title-block
+    width: 330px
+    display: flex
+    justify-content: flex-start
+    margin-bottom: 30px
+  &__title
+    font-size: 28px
+    color: black
+    text-transform: uppercase
+  &__content
+    height: 270px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+  &__left-block,
+  &__right-block
+    display: flex
+    justify-content: space-between
+    width: 286px
+    margin-bottom: 10px
+  &__subblock
+    text-decoration: none
+    height: 140px
+    display: flex
+    flex-direction: column
+    align-items: center
+    
+  &__cyrcle
+    width: 86px
+    height: 86px
+    border-radius: 50%
+    background-color: white
+    display: flex
+    justify-content: center
+    align-items: center
+  &__image_img1
+    background-image: url("img/icon1.png")
+    background-size: cover
+    height: 34px
+    width: 58px
+    margin-left: 2px
+  &__image_img2
+    background-image: url("img/icon2.png")
+    background-size: cover
+    height: 40px
+    width: 34px
+    margin-right: 2px
+    margin-bottom: 3px
+  &__image_img3
+    background-image: url("img/icon3.png")
+    background-size: cover
+    width: 36px
+    height: 36px
+  &__image_img4
+    background-image: url("img/icon4.png")
+    background-size: cover
+    width: 37px
+    height: 32px
+  &__image_img5
+    background-image: url("img/icon5.png")
+    background-size: cover
+    height: 38px
+    width: 36px
+  &__image_img6
+    background-image: url("img/icon6.png")
+    background-size: cover
+    width: 40px
+    height: 31px
+    margin-top: 2px
+    margin-left: 2px
+  &__text-block
+    width: 88px
+    height: 20px
+    margin-top: 12px
+  &__text
+    color: black
+    text-align: center
+    font-size: 10px
+
+
+
+
+
+
+
